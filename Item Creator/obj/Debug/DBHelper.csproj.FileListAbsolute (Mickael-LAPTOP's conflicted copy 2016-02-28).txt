@@ -1,0 +1,16 @@
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\DBHelper.DBHelper.resources
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\DBHelper.Properties.Resources.resources
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\DBHelper.csproj.GenerateResource.Cache
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\bin\Debug\DBHelper.exe
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\bin\Debug\DBHelper.pdb
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\DBHelper.exe
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\DBHelper.pdb
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.exe
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.pdb
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\bin\Debug\DBHelper.exe
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\bin\Debug\DBHelper.pdb
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.DBHelper.resources
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.Properties.Resources.resources
+C:\Users\Mickael\Dropbox\Programming.old\Photext Journey\Item Creator\obj\Debug\DBHelper.csproj.GenerateResource.Cache

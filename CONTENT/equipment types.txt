@@ -1,0 +1,6 @@
+value : type
+0		head
+1		chest
+2		legs
+3		feets
+4		weapon

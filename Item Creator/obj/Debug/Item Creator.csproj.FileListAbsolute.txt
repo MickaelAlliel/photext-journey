@@ -1,0 +1,8 @@
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\bin\Debug\Item Creator.exe
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\bin\Debug\Item Creator.pdb
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\Item_Creator.ItemCreator.resources
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\Item_Creator.Properties.Resources.resources
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\Item Creator.csproj.GenerateResource.Cache
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\Item Creator.exe
+D:\Dropbox\Public\Programming\Photext Journey\Item Creator\obj\Debug\Item Creator.pdb

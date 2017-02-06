@@ -1,0 +1,87 @@
+0
+0
+1297
+1297
+706
+706
+116
+102
+134
+55
+1570
+209
+Health Potion
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+Potion of Both
+
+
+
+
+
+
+
+
+
+
+alive
+11
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+284
+222

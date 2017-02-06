@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Photext_Journey.Core.Animation" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgQQAAgYAQAxAAAAAAAAAAQAACAACBAAAAAA=</HashCode>
+      <FileName>Core\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Core.Fight" Collapsed="true">
+    <Position X="18.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAIkAAQgIBBAAACAAAAAAAAAAAAAAAAAAAAA4=</HashCode>
+      <FileName>Core\Fight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Core.FightHelper" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAcQAEgIApAAIAAQAAAAAAMEAARCAAAAAAAAIAAQ=</HashCode>
+      <FileName>Core\FightHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Core.SaveLoad" Collapsed="true">
+    <Position X="18.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEASAAABAAAAAAAAIAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>Core\SaveLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Core.HUD" Collapsed="true">
+    <Position X="14.75" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Photext_Journey.Core.HUD.ChoiceHUD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GUI\HUD.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Photext_Journey.Core.HUD.MenuHUD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GUI\HUD.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Photext_Journey.Core.HUD.SpellChoice" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GUI\HUD.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BgRFSBQBAdAGgkgMAGMABABJAMN5QUUCCwQkBAIIKR4=</HashCode>
+      <FileName>GUI\HUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Game" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Photext_Journey.Game.MenuChoice" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Photext_Journey.Game.GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAwYXEAABFAAAygACAAABAgBYAEBCBwAAAAAAAAgIBQ=</HashCode>
+      <FileName>Core\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Level" Collapsed="true">
+    <Position X="20" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASCDJBAphBAgEAAAAAAAxEAAiQAEARpIIANhAyABY=</HashCode>
+      <FileName>Core\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Program" Collapsed="true">
+    <Position X="16.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Core\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Menu" Collapsed="true">
+    <Position X="9.25" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CgQgAAQAAABAAgAQAASAAQAAkAAABIAgAAAAAAEAIAw=</HashCode>
+      <FileName>GUI\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.KeyboardInput" Collapsed="true">
+    <Position X="18.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAQAAAAgAAAAACAEAAAAAAAAEAAA=</HashCode>
+      <FileName>Input\KeyboardInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.MouseInput" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAUAEAAAAAAUIAAAAAIEAAADAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\MouseInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Editor.EditorGUI" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="2" />
+    <Members>
+      <Field Name="button_Entities" Hidden="true" />
+      <Field Name="button_fillScreen" Hidden="true" />
+      <Field Name="button_hide" Hidden="true" />
+      <Field Name="button_layer1" Hidden="true" />
+      <Field Name="button_layer2" Hidden="true" />
+      <Field Name="button_layer3" Hidden="true" />
+      <Field Name="button_load" Hidden="true" />
+      <Field Name="button_save" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox_entities" Hidden="true" />
+      <Field Name="groupBox_tiles" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label_currentLayer" Hidden="true" />
+      <Field Name="label_entities" Hidden="true" />
+      <Field Name="label_height" Hidden="true" />
+      <Field Name="label_helpLeft" Hidden="true" />
+      <Field Name="label_helpRight" Hidden="true" />
+      <Field Name="label_layer" Hidden="true" />
+      <Field Name="label_width" Hidden="true" />
+      <Field Name="openFileDialog_level" Hidden="true" />
+      <Field Name="radioButton_Bird" Hidden="true" />
+      <Field Name="radioButton_blank" Hidden="true" />
+      <Field Name="radioButton_bush" Hidden="true" />
+      <Field Name="radioButton_Chest" Hidden="true" />
+      <Field Name="radioButton_Chest_Open" Hidden="true" />
+      <Field Name="radioButton_dirt" Hidden="true" />
+      <Field Name="radioButton_Fence_Horizontal" Hidden="true" />
+      <Field Name="radioButton_Fence_Vertical" Hidden="true" />
+      <Field Name="radioButton_Goblin" Hidden="true" />
+      <Field Name="radioButton_grass" Hidden="true" />
+      <Field Name="radioButton_grassTile" Hidden="true" />
+      <Field Name="radioButton_highGrass" Hidden="true" />
+      <Field Name="radioButton_necromancer" Hidden="true" />
+      <Field Name="radioButton_plank" Hidden="true" />
+      <Field Name="radioButton_rock" Hidden="true" />
+      <Field Name="radioButton_sand" Hidden="true" />
+      <Field Name="radioButton_sky" Hidden="true" />
+      <Field Name="radioButton_Slime" Hidden="true" />
+      <Field Name="radioButton_stone" Hidden="true" />
+      <Field Name="radioButton_stoneBricks" Hidden="true" />
+      <Field Name="radioButton_Store" Hidden="true" />
+      <Field Name="radioButton_warp" Hidden="true" />
+      <Field Name="radioButton_water" Hidden="true" />
+      <Field Name="radioButton_wizard" Hidden="true" />
+      <Field Name="radioButton_wood" Hidden="true" />
+      <Field Name="radioButton_yellowStone" Hidden="true" />
+      <Field Name="saveFileDialog_level" Hidden="true" />
+      <Field Name="textBox_currentLayer" Hidden="true" />
+      <Field Name="textBox_entities" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>NWgSgDNBAPxtEnWkEYCQQw1CAAgWIUiJtZ4ENlAyABY=</HashCode>
+      <FileName>Editor\EditorGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.Bird" Collapsed="true">
+    <Position X="18" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\Bird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.Goblin" Collapsed="true">
+    <Position X="18" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\Goblin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.Necromancer" Collapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\Necromancer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.NullEnemy" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\NullEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.Slime" Collapsed="true">
+    <Position X="18" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\Slime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Enemies.Wizard" Collapsed="true">
+    <Position X="18" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemies\Wizard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.GUI.InventoryGUI" Collapsed="true">
+    <Position X="16.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAhAkACAgAACAAAAAQAAABQAAgAAAEQQAAAABw=</HashCode>
+      <FileName>GUI\InventoryGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.GUI.Pause" Collapsed="true">
+    <Position X="11.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgQAACAAKAAAAgAAAACAAAAABAABBAAQgBAAAEEQIBQ=</HashCode>
+      <FileName>GUI\Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.GUI.StoreGUI" Collapsed="true">
+    <Position X="20" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgQkAAggAAEBAAAAQQAAAAABEAAAAABAQCABU=</HashCode>
+      <FileName>GUI\StoreGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.GoblinAxe" Collapsed="true">
+    <Position X="10.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\GoblinGear\GoblinAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.GoblinChest" Collapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\GoblinGear\GoblinChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.GoblinFeets" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\GoblinGear\GoblinFeets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.GoblinHelm" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\GoblinGear\GoblinHelm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.GoblinLegs" Collapsed="true">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\GoblinGear\GoblinLegs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.NullItem" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\NullItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.BothPotion" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Potions\BothPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.HealthPotion" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Potions\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.ManaPotion" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Potions\ManaPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.StartChest" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\StartGear\StartChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.StartFeets" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\StartGear\StartFeets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.StartHelm" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\StartGear\StartHelm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.StartLegs" Collapsed="true">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\StartGear\StartLegs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Items.StartSword" Collapsed="true">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\StartGear\StartSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Spells.ArcaneShock" Collapsed="true">
+    <Position X="22" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\ArcaneShock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Spells.DaggerThrow" Collapsed="true">
+    <Position X="23.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\DaggerThrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Spells.Fireball" Collapsed="true">
+    <Position X="23.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\Fireball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Spells.SelfCure" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\SelfCure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Spells.VampiricBite" Collapsed="true">
+    <Position X="23.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spells\VampiricBite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Templates.Entity" Collapsed="true">
+    <Position X="18" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAgqAIAAAAIAIQAAABgAiAlQEAJEgEAYAE=</HashCode>
+      <FileName>Templates\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Templates.Hero" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACEgAAACKEAAAAAIABgAACAAAgBCQBAIBQEAA=</HashCode>
+      <FileName>Templates\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Templates.Item" Collapsed="true">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAgAAAAAAAAAAAAABAAAAAAQIIIgAAAAE=</HashCode>
+      <FileName>Templates\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photext_Journey.Templates.Spell" Collapsed="true">
+    <Position X="22" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACgAAAAAAAAAAAAJEAAAACAAAgAEAAAAA=</HashCode>
+      <FileName>Templates\Spell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

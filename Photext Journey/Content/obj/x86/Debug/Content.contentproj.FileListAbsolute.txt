@@ -1,0 +1,2 @@
+D:\Programmation\Photext Journey\Photext Journey\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Public\Programming\Photext Journey\Photext Journey\Content\obj\x86\Debug\ResolveAssemblyReference.cache
